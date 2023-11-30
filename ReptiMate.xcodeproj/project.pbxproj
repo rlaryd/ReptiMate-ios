@@ -7,15 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373DE0BA7652DB81D9775548 /* Pods_ReptiMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461154EBD55EF868881C2C1E /* Pods_ReptiMateTests.framework */; };
+		69042C062A70DDED00F80027 /* CommunityMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69042C052A70DDED00F80027 /* CommunityMainViewController.swift */; };
+		69042C082A70E4CF00F80027 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69042C072A70E4CF00F80027 /* WebKit.framework */; };
+		69048F2D29E690DE0008DB97 /* FindPWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69048F2C29E690DE0008DB97 /* FindPWViewController.swift */; };
+		690E056129F7E3D200610F4B /* Setting_MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E056029F7E3D200610F4B /* Setting_MyPageViewController.swift */; };
+		690E056329F8DA3800610F4B /* URLComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E056229F8DA3800610F4B /* URLComponent.swift */; };
+		690E056529F92F8200610F4B /* UIWindow+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E056429F92F8200610F4B /* UIWindow+Ext.swift */; };
+		690E056929FF736600610F4B /* Diary_AnimalListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E056729FF736600610F4B /* Diary_AnimalListTableViewCell.swift */; };
+		690E056A29FF736600610F4B /* Diary_AnimalListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690E056829FF736600610F4B /* Diary_AnimalListTableViewCell.xib */; };
+		690E056F29FF74B800610F4B /* DiaryStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E056E29FF74B800610F4B /* DiaryStructs.swift */; };
+		690E057129FF7A7100610F4B /* Diary_AnimalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E057029FF7A7100610F4B /* Diary_AnimalListViewController.swift */; };
+		690E057329FFB09000610F4B /* Diary_AddAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E057229FFB09000610F4B /* Diary_AddAnimalViewController.swift */; };
+		690E05762A00BFEE00610F4B /* DateTimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E05752A00BFEE00610F4B /* DateTimePickerViewController.swift */; };
+		690E05782A00ED4B00610F4B /* Diary_EditAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E05772A00ED4B00610F4B /* Diary_EditAnimalViewController.swift */; };
+		690E057A2A0240E900610F4B /* Diary_PetInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E05792A0240E900610F4B /* Diary_PetInfoViewController.swift */; };
+		690E057C2A02579400610F4B /* Diary_PetWeightTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E057B2A02579400610F4B /* Diary_PetWeightTabViewController.swift */; };
+		690E057E2A0257C500610F4B /* Diary_PetMemoTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E057D2A0257C500610F4B /* Diary_PetMemoTabViewController.swift */; };
+		690E05812A03CA3D00610F4B /* loadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E057F2A03CA3D00610F4B /* loadingCell.swift */; };
+		690E05822A03CA3D00610F4B /* loadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690E05802A03CA3D00610F4B /* loadingCell.xib */; };
+		691681E52A5D24730038A021 /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691681E42A5D24730038A021 /* TimeManager.swift */; };
+		691D14232A5BF6340066C471 /* streamManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691D14222A5BF6340066C471 /* streamManagerViewController.swift */; };
+		691F3E0C29E8442500C8548C /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F3E0B29E8442500C8548C /* Structs.swift */; };
+		691F3E0F29ED084100C8548C /* UserStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F3E0E29ED084100C8548C /* UserStructs.swift */; };
+		691F3E1229EE8F5500C8548C /* Home_MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F3E1129EE8F5500C8548C /* Home_MyPageViewController.swift */; };
+		691F3E1429EE917600C8548C /* Main_TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F3E1329EE917600C8548C /* Main_TabBarController.swift */; };
+		691F3E1629EFAA8E00C8548C /* VCfunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F3E1529EFAA8E00C8548C /* VCfunc.swift */; };
+		691F3E1B29F55E9000C8548C /* ModifyInfo_MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691F3E1A29F55E9000C8548C /* ModifyInfo_MyPageViewController.swift */; };
+		69290B942A08C2CB00B8BE38 /* forImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290B932A08C2CB00B8BE38 /* forImage.swift */; };
+		69290B982A08E44100B8BE38 /* PetMemo_WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290B972A08E44100B8BE38 /* PetMemo_WriteViewController.swift */; };
+		69290B9A2A08ED3300B8BE38 /* MemoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290B992A08ED3300B8BE38 /* MemoListCollectionViewCell.swift */; };
+		69290B9C2A09FD6E00B8BE38 /* forString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290B9B2A09FD6E00B8BE38 /* forString.swift */; };
+		69290B9E2A0BA3C900B8BE38 /* MemoWriteImgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290B9D2A0BA3C900B8BE38 /* MemoWriteImgCollectionViewCell.swift */; };
+		69290BA02A0C8A0F00B8BE38 /* MemoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290B9F2A0C8A0F00B8BE38 /* MemoDetailViewController.swift */; };
+		69290BA22A0C993800B8BE38 /* MemoDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290BA12A0C993800B8BE38 /* MemoDetailCollectionViewCell.swift */; };
+		69290BA52A0CDF9000B8BE38 /* CollectionViewLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69290BA32A0CDF9000B8BE38 /* CollectionViewLoadingCell.swift */; };
+		69290BA62A0CDF9000B8BE38 /* CollectionViewLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69290BA42A0CDF9000B8BE38 /* CollectionViewLoadingCell.xib */; };
+		692C3BBD2AFB54350089058A /* boardStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692C3BBC2AFB54350089058A /* boardStructs.swift */; };
+		693DF3532AF0CFAE00E0412E /* MyBoard_MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DF3522AF0CFAE00E0412E /* MyBoard_MyPageViewController.swift */; };
+		694D4EBF2A53ED2400131F49 /* MemoDetailImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694D4EBE2A53ED2400131F49 /* MemoDetailImgViewController.swift */; };
+		694D4EC12A53EEF300131F49 /* memoImgDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694D4EC02A53EEF300131F49 /* memoImgDetailCollectionViewCell.swift */; };
+		695A8D142A38ABC700EDBF08 /* scheduleTabmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D132A38ABC700EDBF08 /* scheduleTabmanViewController.swift */; };
+		695A8D162A38AC3F00EDBF08 /* planListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D152A38AC3F00EDBF08 /* planListViewController.swift */; };
+		695A8D182A38AC5800EDBF08 /* calendarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D172A38AC5800EDBF08 /* calendarListViewController.swift */; };
+		695A8D1C2A38B17100EDBF08 /* planListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D1A2A38B17100EDBF08 /* planListTableViewCell.swift */; };
+		695A8D1D2A38B17100EDBF08 /* planListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695A8D1B2A38B17100EDBF08 /* planListTableViewCell.xib */; };
+		695A8D1F2A38C09C00EDBF08 /* ScheduleStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D1E2A38C09C00EDBF08 /* ScheduleStructs.swift */; };
+		695A8D212A39772F00EDBF08 /* makePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D202A39772F00EDBF08 /* makePlanViewController.swift */; };
+		695A8D232A39777400EDBF08 /* cycleSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D222A39777400EDBF08 /* cycleSelectViewController.swift */; };
+		695A8D262A39828C00EDBF08 /* LoadingScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D242A39828C00EDBF08 /* LoadingScheduleTableViewCell.swift */; };
+		695A8D272A39828C00EDBF08 /* LoadingScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695A8D252A39828C00EDBF08 /* LoadingScheduleTableViewCell.xib */; };
+		695A8D2D2A3F5C8000EDBF08 /* calendarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D2B2A3F5C8000EDBF08 /* calendarListTableViewCell.swift */; };
+		695A8D2E2A3F5C8000EDBF08 /* calendarListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 695A8D2C2A3F5C8000EDBF08 /* calendarListTableViewCell.xib */; };
+		695A8D302A3F668F00EDBF08 /* makeCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A8D2F2A3F668F00EDBF08 /* makeCalendarViewController.swift */; };
+		69837DE629E515F800B3D1C8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69837DE529E515F800B3D1C8 /* UIView.swift */; };
+		69837DE829E51ACD00B3D1C8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69837DE729E51ACD00B3D1C8 /* RegisterViewController.swift */; };
+		69837DEA29E51D8B00B3D1C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69837DE929E51D8B00B3D1C8 /* HomeViewController.swift */; };
+		69AEA0372AF37FF800BA46FB /* UploadWKSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AEA0362AF37FF800BA46FB /* UploadWKSchemeHandler.swift */; };
+		69B052932A5552DD005ABD35 /* StreamerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B052922A5552DD005ABD35 /* StreamerViewController.swift */; };
+		69B052962A55586A005ABD35 /* StreamerViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B052952A55586A005ABD35 /* StreamerViewController2.swift */; };
 		69B474BF29E511C1002C70EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B474BE29E511C1002C70EC /* AppDelegate.swift */; };
 		69B474C129E511C1002C70EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B474C029E511C1002C70EC /* SceneDelegate.swift */; };
-		69B474C329E511C1002C70EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B474C229E511C1002C70EC /* ViewController.swift */; };
+		69B474C329E511C1002C70EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B474C229E511C1002C70EC /* LoginViewController.swift */; };
 		69B474C629E511C1002C70EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B474C429E511C1002C70EC /* Main.storyboard */; };
 		69B474C829E511C2002C70EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B474C729E511C2002C70EC /* Assets.xcassets */; };
 		69B474CB29E511C2002C70EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B474C929E511C2002C70EC /* LaunchScreen.storyboard */; };
 		69B474D629E511C2002C70EC /* ReptiMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B474D529E511C2002C70EC /* ReptiMateTests.swift */; };
 		69B474E029E511C2002C70EC /* ReptiMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B474DF29E511C2002C70EC /* ReptiMateUITests.swift */; };
 		69B474E229E511C2002C70EC /* ReptiMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B474E129E511C2002C70EC /* ReptiMateUITestsLaunchTests.swift */; };
+		69C012462A11E14E00434651 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69C012452A11E14E00434651 /* GoogleService-Info.plist */; };
+		69C0124F2A11F58D00434651 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 69C0124E2A11F58D00434651 /* FirebaseAnalytics */; };
+		69C012512A11F58D00434651 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 69C012502A11F58D00434651 /* FirebaseAuth */; };
+		69C012532A11F58D00434651 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 69C012522A11F58D00434651 /* FirebaseFunctions */; };
+		69C012552A11F58D00434651 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 69C012542A11F58D00434651 /* FirebaseMessaging */; };
+		69C012572A11F58D00434651 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 69C012562A11F58D00434651 /* FirebaseStorage */; };
+		69C0125A2A133C1D00434651 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 69C012592A133C1D00434651 /* GoogleSignIn */; };
+		69C0125C2A133C1D00434651 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 69C0125B2A133C1D00434651 /* GoogleSignInSwift */; };
+		69C0125F2A13734300434651 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0125E2A13734300434651 /* Utils.swift */; };
+		69C012662A14A65700434651 /* WeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C012642A14A65700434651 /* WeightTableViewCell.swift */; };
+		69C012672A14A65700434651 /* WeightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C012652A14A65700434651 /* WeightTableViewCell.xib */; };
+		69DEE1142A25ADB000442D25 /* WeightDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEE1132A25ADB000442D25 /* WeightDialogViewController.swift */; };
+		69DEE1172A25CAC300442D25 /* WeightLoadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEE1152A25CAC300442D25 /* WeightLoadingTableViewCell.swift */; };
+		69DEE1182A25CAC300442D25 /* WeightLoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69DEE1162A25CAC300442D25 /* WeightLoadingTableViewCell.xib */; };
+		69DEE11A2A2EE6DC00442D25 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEE1192A2EE6DC00442D25 /* LoadingViewController.swift */; };
+		69DEE11C2A2EEC5500442D25 /* LoadingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEE11B2A2EEC5500442D25 /* LoadingService.swift */; };
+		69FE213B2A4A924D0026400A /* auctionHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE213A2A4A924D0026400A /* auctionHomeViewController.swift */; };
+		69FE213D2A4ABC5F0026400A /* forTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FE213C2A4ABC5F0026400A /* forTableView.swift */; };
+		861CE71DCA02BEB75A8A0C4A /* Pods_ReptiMate_ReptiMateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D32880F9056F63EAF572B2 /* Pods_ReptiMate_ReptiMateUITests.framework */; };
+		DBFDCAC551FBF826DBB0F63B /* Pods_ReptiMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43C49BD954ECA2A6CA5BED7 /* Pods_ReptiMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +114,87 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		69AEA0442AF89C7100BA46FB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		461154EBD55EF868881C2C1E /* Pods_ReptiMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReptiMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D32880F9056F63EAF572B2 /* Pods_ReptiMate_ReptiMateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReptiMate_ReptiMateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9ACC8B81A0C9A3869086ED /* Pods-ReptiMate-ReptiMateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptiMate-ReptiMateUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReptiMate-ReptiMateUITests/Pods-ReptiMate-ReptiMateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		610B0EBFA07A36532534E49C /* Pods-ReptiMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptiMateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReptiMateTests/Pods-ReptiMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69042C052A70DDED00F80027 /* CommunityMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityMainViewController.swift; sourceTree = "<group>"; };
+		69042C072A70E4CF00F80027 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		69048F2C29E690DE0008DB97 /* FindPWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPWViewController.swift; sourceTree = "<group>"; };
+		690E056029F7E3D200610F4B /* Setting_MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_MyPageViewController.swift; sourceTree = "<group>"; };
+		690E056229F8DA3800610F4B /* URLComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponent.swift; sourceTree = "<group>"; };
+		690E056429F92F8200610F4B /* UIWindow+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Ext.swift"; sourceTree = "<group>"; };
+		690E056729FF736600610F4B /* Diary_AnimalListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary_AnimalListTableViewCell.swift; sourceTree = "<group>"; };
+		690E056829FF736600610F4B /* Diary_AnimalListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Diary_AnimalListTableViewCell.xib; sourceTree = "<group>"; };
+		690E056E29FF74B800610F4B /* DiaryStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryStructs.swift; sourceTree = "<group>"; };
+		690E057029FF7A7100610F4B /* Diary_AnimalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary_AnimalListViewController.swift; sourceTree = "<group>"; };
+		690E057229FFB09000610F4B /* Diary_AddAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary_AddAnimalViewController.swift; sourceTree = "<group>"; };
+		690E05752A00BFEE00610F4B /* DateTimePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimePickerViewController.swift; sourceTree = "<group>"; };
+		690E05772A00ED4B00610F4B /* Diary_EditAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary_EditAnimalViewController.swift; sourceTree = "<group>"; };
+		690E05792A0240E900610F4B /* Diary_PetInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary_PetInfoViewController.swift; sourceTree = "<group>"; };
+		690E057B2A02579400610F4B /* Diary_PetWeightTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary_PetWeightTabViewController.swift; sourceTree = "<group>"; };
+		690E057D2A0257C500610F4B /* Diary_PetMemoTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary_PetMemoTabViewController.swift; sourceTree = "<group>"; };
+		690E057F2A03CA3D00610F4B /* loadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingCell.swift; sourceTree = "<group>"; };
+		690E05802A03CA3D00610F4B /* loadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loadingCell.xib; sourceTree = "<group>"; };
+		691681E42A5D24730038A021 /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		691D14222A5BF6340066C471 /* streamManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamManagerViewController.swift; sourceTree = "<group>"; };
+		691F3E0B29E8442500C8548C /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		691F3E0E29ED084100C8548C /* UserStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStructs.swift; sourceTree = "<group>"; };
+		691F3E1129EE8F5500C8548C /* Home_MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_MyPageViewController.swift; sourceTree = "<group>"; };
+		691F3E1329EE917600C8548C /* Main_TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_TabBarController.swift; sourceTree = "<group>"; };
+		691F3E1529EFAA8E00C8548C /* VCfunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCfunc.swift; sourceTree = "<group>"; };
+		691F3E1A29F55E9000C8548C /* ModifyInfo_MyPageViewController.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = ModifyInfo_MyPageViewController.swift; sourceTree = "<group>"; };
+		69290B932A08C2CB00B8BE38 /* forImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forImage.swift; sourceTree = "<group>"; };
+		69290B972A08E44100B8BE38 /* PetMemo_WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMemo_WriteViewController.swift; sourceTree = "<group>"; };
+		69290B992A08ED3300B8BE38 /* MemoListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListCollectionViewCell.swift; sourceTree = "<group>"; };
+		69290B9B2A09FD6E00B8BE38 /* forString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forString.swift; sourceTree = "<group>"; };
+		69290B9D2A0BA3C900B8BE38 /* MemoWriteImgCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoWriteImgCollectionViewCell.swift; sourceTree = "<group>"; };
+		69290B9F2A0C8A0F00B8BE38 /* MemoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailViewController.swift; sourceTree = "<group>"; };
+		69290BA12A0C993800B8BE38 /* MemoDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		69290BA32A0CDF9000B8BE38 /* CollectionViewLoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLoadingCell.swift; sourceTree = "<group>"; };
+		69290BA42A0CDF9000B8BE38 /* CollectionViewLoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewLoadingCell.xib; sourceTree = "<group>"; };
+		692C3BBC2AFB54350089058A /* boardStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardStructs.swift; sourceTree = "<group>"; };
+		693DF3522AF0CFAE00E0412E /* MyBoard_MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBoard_MyPageViewController.swift; sourceTree = "<group>"; };
+		694D4EBE2A53ED2400131F49 /* MemoDetailImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoDetailImgViewController.swift; sourceTree = "<group>"; };
+		694D4EC02A53EEF300131F49 /* memoImgDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoImgDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		695A8D132A38ABC700EDBF08 /* scheduleTabmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleTabmanViewController.swift; sourceTree = "<group>"; };
+		695A8D152A38AC3F00EDBF08 /* planListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planListViewController.swift; sourceTree = "<group>"; };
+		695A8D172A38AC5800EDBF08 /* calendarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarListViewController.swift; sourceTree = "<group>"; };
+		695A8D1A2A38B17100EDBF08 /* planListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planListTableViewCell.swift; sourceTree = "<group>"; };
+		695A8D1B2A38B17100EDBF08 /* planListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = planListTableViewCell.xib; sourceTree = "<group>"; };
+		695A8D1E2A38C09C00EDBF08 /* ScheduleStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleStructs.swift; sourceTree = "<group>"; };
+		695A8D202A39772F00EDBF08 /* makePlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makePlanViewController.swift; sourceTree = "<group>"; };
+		695A8D222A39777400EDBF08 /* cycleSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cycleSelectViewController.swift; sourceTree = "<group>"; };
+		695A8D242A39828C00EDBF08 /* LoadingScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		695A8D252A39828C00EDBF08 /* LoadingScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		695A8D2B2A3F5C8000EDBF08 /* calendarListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarListTableViewCell.swift; sourceTree = "<group>"; };
+		695A8D2C2A3F5C8000EDBF08 /* calendarListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = calendarListTableViewCell.xib; sourceTree = "<group>"; };
+		695A8D2F2A3F668F00EDBF08 /* makeCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeCalendarViewController.swift; sourceTree = "<group>"; };
+		69837DE529E515F800B3D1C8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		69837DE729E51ACD00B3D1C8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		69837DE929E51D8B00B3D1C8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		69AEA0362AF37FF800BA46FB /* UploadWKSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadWKSchemeHandler.swift; sourceTree = "<group>"; };
+		69B052922A5552DD005ABD35 /* StreamerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamerViewController.swift; sourceTree = "<group>"; };
+		69B052942A55532E005ABD35 /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		69B052952A55586A005ABD35 /* StreamerViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamerViewController2.swift; sourceTree = "<group>"; };
 		69B474BB29E511C1002C70EC /* ReptiMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReptiMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B474BE29E511C1002C70EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69B474C029E511C1002C70EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69B474C229E511C1002C70EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69B474C229E511C1002C70EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		69B474C529E511C1002C70EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69B474C729E511C2002C70EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69B474CA29E511C2002C70EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +204,24 @@
 		69B474DB29E511C2002C70EC /* ReptiMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReptiMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69B474DF29E511C2002C70EC /* ReptiMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReptiMateUITests.swift; sourceTree = "<group>"; };
 		69B474E129E511C2002C70EC /* ReptiMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReptiMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69C012452A11E14E00434651 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69C0124C2A11E7CB00434651 /* ReptiMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReptiMate.entitlements; sourceTree = "<group>"; };
+		69C0125D2A135F4100434651 /* ReptiMateRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReptiMateRelease.entitlements; sourceTree = "<group>"; };
+		69C0125E2A13734300434651 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		69C012642A14A65700434651 /* WeightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTableViewCell.swift; sourceTree = "<group>"; };
+		69C012652A14A65700434651 /* WeightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightTableViewCell.xib; sourceTree = "<group>"; };
+		69DEE1132A25ADB000442D25 /* WeightDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDialogViewController.swift; sourceTree = "<group>"; };
+		69DEE1152A25CAC300442D25 /* WeightLoadingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLoadingTableViewCell.swift; sourceTree = "<group>"; };
+		69DEE1162A25CAC300442D25 /* WeightLoadingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeightLoadingTableViewCell.xib; sourceTree = "<group>"; };
+		69DEE1192A2EE6DC00442D25 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		69DEE11B2A2EEC5500442D25 /* LoadingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingService.swift; sourceTree = "<group>"; };
+		69FE213A2A4A924D0026400A /* auctionHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auctionHomeViewController.swift; sourceTree = "<group>"; };
+		69FE213C2A4ABC5F0026400A /* forTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forTableView.swift; sourceTree = "<group>"; };
+		7B73A0D8DA5F6E426A72DD01 /* Pods-ReptiMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptiMate.debug.xcconfig"; path = "Target Support Files/Pods-ReptiMate/Pods-ReptiMate.debug.xcconfig"; sourceTree = "<group>"; };
+		9494D68B6BFAB008A930827F /* Pods-ReptiMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptiMateTests.release.xcconfig"; path = "Target Support Files/Pods-ReptiMateTests/Pods-ReptiMateTests.release.xcconfig"; sourceTree = "<group>"; };
+		949A26E6BE2BE106483538CE /* Pods-ReptiMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptiMate.release.xcconfig"; path = "Target Support Files/Pods-ReptiMate/Pods-ReptiMate.release.xcconfig"; sourceTree = "<group>"; };
+		9EA7A319CFAFA2C879B0A59D /* Pods-ReptiMate-ReptiMateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReptiMate-ReptiMateUITests.release.xcconfig"; path = "Target Support Files/Pods-ReptiMate-ReptiMateUITests/Pods-ReptiMate-ReptiMateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F43C49BD954ECA2A6CA5BED7 /* Pods_ReptiMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReptiMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +229,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69042C082A70E4CF00F80027 /* WebKit.framework in Frameworks */,
+				69C0124F2A11F58D00434651 /* FirebaseAnalytics in Frameworks */,
+				69C012512A11F58D00434651 /* FirebaseAuth in Frameworks */,
+				69C012552A11F58D00434651 /* FirebaseMessaging in Frameworks */,
+				69C0125C2A133C1D00434651 /* GoogleSignInSwift in Frameworks */,
+				DBFDCAC551FBF826DBB0F63B /* Pods_ReptiMate.framework in Frameworks */,
+				69C012532A11F58D00434651 /* FirebaseFunctions in Frameworks */,
+				69C012572A11F58D00434651 /* FirebaseStorage in Frameworks */,
+				69C0125A2A133C1D00434651 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +245,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373DE0BA7652DB81D9775548 /* Pods_ReptiMateTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +253,182 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861CE71DCA02BEB75A8A0C4A /* Pods_ReptiMate_ReptiMateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		168CA409EBA0C89AE056357F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B73A0D8DA5F6E426A72DD01 /* Pods-ReptiMate.debug.xcconfig */,
+				949A26E6BE2BE106483538CE /* Pods-ReptiMate.release.xcconfig */,
+				5C9ACC8B81A0C9A3869086ED /* Pods-ReptiMate-ReptiMateUITests.debug.xcconfig */,
+				9EA7A319CFAFA2C879B0A59D /* Pods-ReptiMate-ReptiMateUITests.release.xcconfig */,
+				610B0EBFA07A36532534E49C /* Pods-ReptiMateTests.debug.xcconfig */,
+				9494D68B6BFAB008A930827F /* Pods-ReptiMateTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69042C042A70DDA200F80027 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				69042C052A70DDED00F80027 /* CommunityMainViewController.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		690E056629FF732400610F4B /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				69290B962A08E27D00B8BE38 /* Weight */,
+				69290B952A08E27000B8BE38 /* Memo */,
+				690E056729FF736600610F4B /* Diary_AnimalListTableViewCell.swift */,
+				690E056829FF736600610F4B /* Diary_AnimalListTableViewCell.xib */,
+				690E057029FF7A7100610F4B /* Diary_AnimalListViewController.swift */,
+				690E057229FFB09000610F4B /* Diary_AddAnimalViewController.swift */,
+				690E05772A00ED4B00610F4B /* Diary_EditAnimalViewController.swift */,
+				690E05792A0240E900610F4B /* Diary_PetInfoViewController.swift */,
+				690E057F2A03CA3D00610F4B /* loadingCell.swift */,
+				690E05802A03CA3D00610F4B /* loadingCell.xib */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		690E05742A00BFD800610F4B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				690E05752A00BFEE00610F4B /* DateTimePickerViewController.swift */,
+				69DEE1192A2EE6DC00442D25 /* LoadingViewController.swift */,
+				69DEE11B2A2EEC5500442D25 /* LoadingService.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		691F3E1029EE8F2500C8548C /* MyPage */ = {
+			isa = PBXGroup;
+			children = (
+				695A8D122A38AB6E00EDBF08 /* Scheduling */,
+				691F3E1129EE8F5500C8548C /* Home_MyPageViewController.swift */,
+				691F3E1A29F55E9000C8548C /* ModifyInfo_MyPageViewController.swift */,
+				690E056029F7E3D200610F4B /* Setting_MyPageViewController.swift */,
+				693DF3522AF0CFAE00E0412E /* MyBoard_MyPageViewController.swift */,
+			);
+			path = MyPage;
+			sourceTree = "<group>";
+		};
+		691F3E1C29F56F0000C8548C /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				691F3E0E29ED084100C8548C /* UserStructs.swift */,
+				690E056429F92F8200610F4B /* UIWindow+Ext.swift */,
+				690E056E29FF74B800610F4B /* DiaryStructs.swift */,
+				695A8D1E2A38C09C00EDBF08 /* ScheduleStructs.swift */,
+				692C3BBC2AFB54350089058A /* boardStructs.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		69290B922A08C28D00B8BE38 /* Addon */ = {
+			isa = PBXGroup;
+			children = (
+				69290B932A08C2CB00B8BE38 /* forImage.swift */,
+				69290B9B2A09FD6E00B8BE38 /* forString.swift */,
+				69C0125E2A13734300434651 /* Utils.swift */,
+				69FE213C2A4ABC5F0026400A /* forTableView.swift */,
+				691681E42A5D24730038A021 /* TimeManager.swift */,
+				69AEA0362AF37FF800BA46FB /* UploadWKSchemeHandler.swift */,
+			);
+			path = Addon;
+			sourceTree = "<group>";
+		};
+		69290B952A08E27000B8BE38 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				690E057D2A0257C500610F4B /* Diary_PetMemoTabViewController.swift */,
+				69290B972A08E44100B8BE38 /* PetMemo_WriteViewController.swift */,
+				69290B992A08ED3300B8BE38 /* MemoListCollectionViewCell.swift */,
+				69290B9D2A0BA3C900B8BE38 /* MemoWriteImgCollectionViewCell.swift */,
+				69290B9F2A0C8A0F00B8BE38 /* MemoDetailViewController.swift */,
+				69290BA12A0C993800B8BE38 /* MemoDetailCollectionViewCell.swift */,
+				69290BA32A0CDF9000B8BE38 /* CollectionViewLoadingCell.swift */,
+				69290BA42A0CDF9000B8BE38 /* CollectionViewLoadingCell.xib */,
+				694D4EBE2A53ED2400131F49 /* MemoDetailImgViewController.swift */,
+				694D4EC02A53EEF300131F49 /* memoImgDetailCollectionViewCell.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		69290B962A08E27D00B8BE38 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				690E057B2A02579400610F4B /* Diary_PetWeightTabViewController.swift */,
+				69C012642A14A65700434651 /* WeightTableViewCell.swift */,
+				69C012652A14A65700434651 /* WeightTableViewCell.xib */,
+				69DEE1132A25ADB000442D25 /* WeightDialogViewController.swift */,
+				69DEE1152A25CAC300442D25 /* WeightLoadingTableViewCell.swift */,
+				69DEE1162A25CAC300442D25 /* WeightLoadingTableViewCell.xib */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		695A8D122A38AB6E00EDBF08 /* Scheduling */ = {
+			isa = PBXGroup;
+			children = (
+				695A8D282A3F591000EDBF08 /* Calendar */,
+				695A8D192A38B14C00EDBF08 /* List */,
+				695A8D222A39777400EDBF08 /* cycleSelectViewController.swift */,
+				695A8D132A38ABC700EDBF08 /* scheduleTabmanViewController.swift */,
+				695A8D152A38AC3F00EDBF08 /* planListViewController.swift */,
+				695A8D172A38AC5800EDBF08 /* calendarListViewController.swift */,
+				695A8D202A39772F00EDBF08 /* makePlanViewController.swift */,
+				695A8D2F2A3F668F00EDBF08 /* makeCalendarViewController.swift */,
+			);
+			path = Scheduling;
+			sourceTree = "<group>";
+		};
+		695A8D192A38B14C00EDBF08 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				695A8D1A2A38B17100EDBF08 /* planListTableViewCell.swift */,
+				695A8D1B2A38B17100EDBF08 /* planListTableViewCell.xib */,
+				695A8D242A39828C00EDBF08 /* LoadingScheduleTableViewCell.swift */,
+				695A8D252A39828C00EDBF08 /* LoadingScheduleTableViewCell.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		695A8D282A3F591000EDBF08 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				695A8D2B2A3F5C8000EDBF08 /* calendarListTableViewCell.swift */,
+				695A8D2C2A3F5C8000EDBF08 /* calendarListTableViewCell.xib */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		69837DEB29E51DB000B3D1C8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				69837DE929E51D8B00B3D1C8 /* HomeViewController.swift */,
+				69FE213A2A4A924D0026400A /* auctionHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		69B052912A55529A005ABD35 /* Auction */ = {
+			isa = PBXGroup;
+			children = (
+				69B052922A5552DD005ABD35 /* StreamerViewController.swift */,
+				69B052952A55586A005ABD35 /* StreamerViewController2.swift */,
+				691D14222A5BF6340066C471 /* streamManagerViewController.swift */,
+			);
+			path = Auction;
+			sourceTree = "<group>";
+		};
 		69B474B229E511C1002C70EC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +436,8 @@
 				69B474D429E511C2002C70EC /* ReptiMateTests */,
 				69B474DE29E511C2002C70EC /* ReptiMateUITests */,
 				69B474BC29E511C1002C70EC /* Products */,
+				168CA409EBA0C89AE056357F /* Pods */,
+				9A69819F6B41330A1E0CF88E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +454,30 @@
 		69B474BD29E511C1002C70EC /* ReptiMate */ = {
 			isa = PBXGroup;
 			children = (
+				69042C042A70DDA200F80027 /* Community */,
+				69B052912A55529A005ABD35 /* Auction */,
+				69C0125D2A135F4100434651 /* ReptiMateRelease.entitlements */,
+				69C0124C2A11E7CB00434651 /* ReptiMate.entitlements */,
+				69290B922A08C28D00B8BE38 /* Addon */,
+				690E05742A00BFD800610F4B /* UI */,
+				690E056629FF732400610F4B /* Diary */,
+				691F3E1C29F56F0000C8548C /* Structs */,
+				691F3E1029EE8F2500C8548C /* MyPage */,
+				69837DEB29E51DB000B3D1C8 /* Home */,
+				69B474EE29E5120E002C70EC /* User */,
 				69B474BE29E511C1002C70EC /* AppDelegate.swift */,
 				69B474C029E511C1002C70EC /* SceneDelegate.swift */,
-				69B474C229E511C1002C70EC /* ViewController.swift */,
 				69B474C429E511C1002C70EC /* Main.storyboard */,
 				69B474C729E511C2002C70EC /* Assets.xcassets */,
 				69B474C929E511C2002C70EC /* LaunchScreen.storyboard */,
 				69B474CC29E511C2002C70EC /* Info.plist */,
+				69837DE529E515F800B3D1C8 /* UIView.swift */,
+				691F3E0B29E8442500C8548C /* Structs.swift */,
+				69C012452A11E14E00434651 /* GoogleService-Info.plist */,
+				691F3E1329EE917600C8548C /* Main_TabBarController.swift */,
+				691F3E1529EFAA8E00C8548C /* VCfunc.swift */,
+				690E056229F8DA3800610F4B /* URLComponent.swift */,
+				69B052942A55532E005ABD35 /* Bridging_Header.h */,
 			);
 			path = ReptiMate;
 			sourceTree = "<group>";
@@ -127,6 +499,27 @@
 			path = ReptiMateUITests;
 			sourceTree = "<group>";
 		};
+		69B474EE29E5120E002C70EC /* User */ = {
+			isa = PBXGroup;
+			children = (
+				69B474C229E511C1002C70EC /* LoginViewController.swift */,
+				69837DE729E51ACD00B3D1C8 /* RegisterViewController.swift */,
+				69048F2C29E690DE0008DB97 /* FindPWViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		9A69819F6B41330A1E0CF88E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69042C072A70E4CF00F80027 /* WebKit.framework */,
+				F43C49BD954ECA2A6CA5BED7 /* Pods_ReptiMate.framework */,
+				58D32880F9056F63EAF572B2 /* Pods_ReptiMate_ReptiMateUITests.framework */,
+				461154EBD55EF868881C2C1E /* Pods_ReptiMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +527,27 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69B474E529E511C2002C70EC /* Build configuration list for PBXNativeTarget "ReptiMate" */;
 			buildPhases = (
+				C6FBC763A2B9055D42EA7737 /* [CP] Check Pods Manifest.lock */,
 				69B474B729E511C1002C70EC /* Sources */,
 				69B474B829E511C1002C70EC /* Frameworks */,
 				69B474B929E511C1002C70EC /* Resources */,
+				64B69113B8EE7E1919804940 /* [CP] Embed Pods Frameworks */,
+				69AEA0442AF89C7100BA46FB /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ReptiMate;
+			packageProductDependencies = (
+				69C0124E2A11F58D00434651 /* FirebaseAnalytics */,
+				69C012502A11F58D00434651 /* FirebaseAuth */,
+				69C012522A11F58D00434651 /* FirebaseFunctions */,
+				69C012542A11F58D00434651 /* FirebaseMessaging */,
+				69C012562A11F58D00434651 /* FirebaseStorage */,
+				69C012592A133C1D00434651 /* GoogleSignIn */,
+				69C0125B2A133C1D00434651 /* GoogleSignInSwift */,
+			);
 			productName = ReptiMate;
 			productReference = 69B474BB29E511C1002C70EC /* ReptiMate.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +556,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69B474E829E511C2002C70EC /* Build configuration list for PBXNativeTarget "ReptiMateTests" */;
 			buildPhases = (
+				7CAD0324E394C4FC94B753DC /* [CP] Check Pods Manifest.lock */,
 				69B474CD29E511C2002C70EC /* Sources */,
 				69B474CE29E511C2002C70EC /* Frameworks */,
 				69B474CF29E511C2002C70EC /* Resources */,
@@ -169,9 +575,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69B474EB29E511C2002C70EC /* Build configuration list for PBXNativeTarget "ReptiMateUITests" */;
 			buildPhases = (
+				7307575D0F4AF8F635AF3908 /* [CP] Check Pods Manifest.lock */,
 				69B474D729E511C2002C70EC /* Sources */,
 				69B474D829E511C2002C70EC /* Frameworks */,
 				69B474D929E511C2002C70EC /* Resources */,
+				5E5C937AEB6225B52061E14F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +623,10 @@
 				Base,
 			);
 			mainGroup = 69B474B229E511C1002C70EC;
+			packageReferences = (
+				69C0124D2A11F58D00434651 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				69C012582A133C1D00434651 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = 69B474BC29E511C1002C70EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +644,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B474CB29E511C2002C70EC /* LaunchScreen.storyboard in Resources */,
+				695A8D272A39828C00EDBF08 /* LoadingScheduleTableViewCell.xib in Resources */,
+				690E056A29FF736600610F4B /* Diary_AnimalListTableViewCell.xib in Resources */,
+				695A8D1D2A38B17100EDBF08 /* planListTableViewCell.xib in Resources */,
+				690E05822A03CA3D00610F4B /* loadingCell.xib in Resources */,
+				69DEE1182A25CAC300442D25 /* WeightLoadingTableViewCell.xib in Resources */,
+				69C012672A14A65700434651 /* WeightTableViewCell.xib in Resources */,
+				69290BA62A0CDF9000B8BE38 /* CollectionViewLoadingCell.xib in Resources */,
 				69B474C829E511C2002C70EC /* Assets.xcassets in Resources */,
 				69B474C629E511C1002C70EC /* Main.storyboard in Resources */,
+				69C012462A11E14E00434651 /* GoogleService-Info.plist in Resources */,
+				695A8D2E2A3F5C8000EDBF08 /* calendarListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +674,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E5C937AEB6225B52061E14F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReptiMate-ReptiMateUITests/Pods-ReptiMate-ReptiMateUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReptiMate-ReptiMateUITests/Pods-ReptiMate-ReptiMateUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReptiMate-ReptiMateUITests/Pods-ReptiMate-ReptiMateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B69113B8EE7E1919804940 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReptiMate/Pods-ReptiMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReptiMate/Pods-ReptiMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReptiMate/Pods-ReptiMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7307575D0F4AF8F635AF3908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReptiMate-ReptiMateUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CAD0324E394C4FC94B753DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReptiMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6FBC763A2B9055D42EA7737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReptiMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69B474B729E511C1002C70EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69B474C329E511C1002C70EC /* ViewController.swift in Sources */,
+				695A8D2D2A3F5C8000EDBF08 /* calendarListTableViewCell.swift in Sources */,
+				690E057C2A02579400610F4B /* Diary_PetWeightTabViewController.swift in Sources */,
+				690E057329FFB09000610F4B /* Diary_AddAnimalViewController.swift in Sources */,
+				69290B9E2A0BA3C900B8BE38 /* MemoWriteImgCollectionViewCell.swift in Sources */,
+				695A8D1F2A38C09C00EDBF08 /* ScheduleStructs.swift in Sources */,
+				691F3E0C29E8442500C8548C /* Structs.swift in Sources */,
+				691D14232A5BF6340066C471 /* streamManagerViewController.swift in Sources */,
+				69290B9A2A08ED3300B8BE38 /* MemoListCollectionViewCell.swift in Sources */,
+				69FE213D2A4ABC5F0026400A /* forTableView.swift in Sources */,
+				690E05762A00BFEE00610F4B /* DateTimePickerViewController.swift in Sources */,
+				695A8D262A39828C00EDBF08 /* LoadingScheduleTableViewCell.swift in Sources */,
+				695A8D182A38AC5800EDBF08 /* calendarListViewController.swift in Sources */,
+				69837DE629E515F800B3D1C8 /* UIView.swift in Sources */,
+				691F3E1629EFAA8E00C8548C /* VCfunc.swift in Sources */,
+				69837DE829E51ACD00B3D1C8 /* RegisterViewController.swift in Sources */,
+				69B474C329E511C1002C70EC /* LoginViewController.swift in Sources */,
+				69C0125F2A13734300434651 /* Utils.swift in Sources */,
+				69DEE11A2A2EE6DC00442D25 /* LoadingViewController.swift in Sources */,
+				69C012662A14A65700434651 /* WeightTableViewCell.swift in Sources */,
+				691F3E1229EE8F5500C8548C /* Home_MyPageViewController.swift in Sources */,
+				690E05782A00ED4B00610F4B /* Diary_EditAnimalViewController.swift in Sources */,
+				69B052962A55586A005ABD35 /* StreamerViewController2.swift in Sources */,
+				690E056F29FF74B800610F4B /* DiaryStructs.swift in Sources */,
+				691F3E0F29ED084100C8548C /* UserStructs.swift in Sources */,
+				69290B982A08E44100B8BE38 /* PetMemo_WriteViewController.swift in Sources */,
+				694D4EC12A53EEF300131F49 /* memoImgDetailCollectionViewCell.swift in Sources */,
+				695A8D142A38ABC700EDBF08 /* scheduleTabmanViewController.swift in Sources */,
+				69042C062A70DDED00F80027 /* CommunityMainViewController.swift in Sources */,
+				691F3E1429EE917600C8548C /* Main_TabBarController.swift in Sources */,
+				69048F2D29E690DE0008DB97 /* FindPWViewController.swift in Sources */,
+				69290BA52A0CDF9000B8BE38 /* CollectionViewLoadingCell.swift in Sources */,
+				69DEE1172A25CAC300442D25 /* WeightLoadingTableViewCell.swift in Sources */,
+				693DF3532AF0CFAE00E0412E /* MyBoard_MyPageViewController.swift in Sources */,
+				695A8D212A39772F00EDBF08 /* makePlanViewController.swift in Sources */,
+				69DEE1142A25ADB000442D25 /* WeightDialogViewController.swift in Sources */,
+				695A8D232A39777400EDBF08 /* cycleSelectViewController.swift in Sources */,
+				695A8D302A3F668F00EDBF08 /* makeCalendarViewController.swift in Sources */,
+				692C3BBD2AFB54350089058A /* boardStructs.swift in Sources */,
+				690E05812A03CA3D00610F4B /* loadingCell.swift in Sources */,
+				694D4EBF2A53ED2400131F49 /* MemoDetailImgViewController.swift in Sources */,
+				695A8D162A38AC3F00EDBF08 /* planListViewController.swift in Sources */,
 				69B474BF29E511C1002C70EC /* AppDelegate.swift in Sources */,
+				695A8D1C2A38B17100EDBF08 /* planListTableViewCell.swift in Sources */,
+				69290B9C2A09FD6E00B8BE38 /* forString.swift in Sources */,
+				69B052932A5552DD005ABD35 /* StreamerViewController.swift in Sources */,
+				690E056929FF736600610F4B /* Diary_AnimalListTableViewCell.swift in Sources */,
+				69837DEA29E51D8B00B3D1C8 /* HomeViewController.swift in Sources */,
+				691F3E1B29F55E9000C8548C /* ModifyInfo_MyPageViewController.swift in Sources */,
+				690E057A2A0240E900610F4B /* Diary_PetInfoViewController.swift in Sources */,
+				690E056329F8DA3800610F4B /* URLComponent.swift in Sources */,
+				69290BA02A0C8A0F00B8BE38 /* MemoDetailViewController.swift in Sources */,
+				69290B942A08C2CB00B8BE38 /* forImage.swift in Sources */,
+				69290BA22A0C993800B8BE38 /* MemoDetailCollectionViewCell.swift in Sources */,
+				69AEA0372AF37FF800BA46FB /* UploadWKSchemeHandler.swift in Sources */,
+				690E056129F7E3D200610F4B /* Setting_MyPageViewController.swift in Sources */,
 				69B474C129E511C1002C70EC /* SceneDelegate.swift in Sources */,
+				691681E52A5D24730038A021 /* TimeManager.swift in Sources */,
+				690E056529F92F8200610F4B /* UIWindow+Ext.swift in Sources */,
+				69FE213B2A4A924D0026400A /* auctionHomeViewController.swift in Sources */,
+				690E057E2A0257C500610F4B /* Diary_PetMemoTabViewController.swift in Sources */,
+				69DEE11C2A2EEC5500442D25 /* LoadingService.swift in Sources */,
+				690E057129FF7A7100610F4B /* Diary_AnimalListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +949,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = ReptiMate/Bridging_Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -420,11 +1004,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = ReptiMate/Bridging_Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -432,19 +1017,29 @@
 		};
 		69B474E629E511C2002C70EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B73A0D8DA5F6E426A72DD01 /* Pods-ReptiMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ReptiMate/ReptiMate.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T85YW7F828;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T85YW7F828;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReptiMate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 촬영을 위한 카메라 사용 권한을 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 사용을 위한 마이크 사용 권한을 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 첨부를 위한 앨범 사용 권한을 허용 하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,27 +1047,43 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = store.reptimate.ReptiMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "KIYONG KIM";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = ReptiMate/Bridging_Header.h;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		69B474E729E511C2002C70EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949A26E6BE2BE106483538CE /* Pods-ReptiMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ReptiMate/ReptiMateRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T85YW7F828;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = T85YW7F828;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ReptiMate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 촬영을 위한 카메라 사용 권한을 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "마이크 사용을 위한 마이크 사용 권한을 허용 하시겠습니까?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 첨부를 위한 앨범 사용 권한을 허용 하시겠습니까?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,14 +1091,21 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = store.reptimate.ReptiMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "KIYONG KIM";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = ReptiMate/Bridging_Header.h;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		69B474E929E511C2002C70EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610B0EBFA07A36532534E49C /* Pods-ReptiMateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1126,7 @@
 		};
 		69B474EA29E511C2002C70EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9494D68B6BFAB008A930827F /* Pods-ReptiMateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +1147,7 @@
 		};
 		69B474EC29E511C2002C70EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9ACC8B81A0C9A3869086ED /* Pods-ReptiMate-ReptiMateUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +1166,7 @@
 		};
 		69B474ED29E511C2002C70EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA7A319CFAFA2C879B0A59D /* Pods-ReptiMate-ReptiMateUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +1223,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		69C0124D2A11F58D00434651 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		69C012582A133C1D00434651 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		69C0124E2A11F58D00434651 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69C0124D2A11F58D00434651 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		69C012502A11F58D00434651 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69C0124D2A11F58D00434651 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		69C012522A11F58D00434651 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69C0124D2A11F58D00434651 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		69C012542A11F58D00434651 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69C0124D2A11F58D00434651 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		69C012562A11F58D00434651 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69C0124D2A11F58D00434651 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		69C012592A133C1D00434651 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69C012582A133C1D00434651 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		69C0125B2A133C1D00434651 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69C012582A133C1D00434651 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 69B474B329E511C1002C70EC /* Project object */;
 }
